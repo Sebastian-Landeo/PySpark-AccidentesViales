@@ -1,0 +1,27 @@
+| Columna    | Tipo  | Descripción / Nota                                            |
+| ---------- | ----- | ------------------------------------------------------------- |
+| OBJECTID   | int   | Identificador único interno del shapefile                     |
+| Id         | int   | ID del tramo en la red vial                                   |
+| cCodRuta   | str   | Código de la ruta (ej. PE-1S)                                 |
+| cNomRuta   | str   | Nombre completo de la ruta / tramo                            |
+| cIdTramo   | int   | Número de tramo dentro de la ruta                             |
+| dkmInicio  | float | Kilómetro inicial del tramo                                   |
+| dkmFinal   | float | Kilómetro final del tramo                                     |
+| dLongitud  | float | Longitud del tramo (km)                                       |
+| dNroCarril | int   | Número de carriles                                            |
+| dAncCalzad | float | Ancho de calzada (m)                                          |
+| cTipRed    | str   | Tipo de red vial (RN, RAMAL, etc.)                            |
+| cClasifica | str   | Clasificación de la vía (TRANSVERSAL, LONGITUDINAL, etc.)     |
+| cAutopista | int   | Indicador de autopista (0 = no, 1 = sí)                       |
+| cSentido   | str   | Sentido de la vía (UC, DU, etc.)                              |
+| cCodDepart | int   | Código departamental INEI                                     |
+| cDepartame | str   | Nombre del departamento                                       |
+| cCodProvin | int   | Código de provincia INEI                                      |
+| cRegion    | str   | Región geográfica (Costa, Sierra, Selva)                      |
+| cTopografi | str   | Tipo de terreno (Plano, Montañoso, Ondulado)                  |
+| cEstado    | str   | Estado general del tramo (Buena, Regular, Mala)               |
+| dSuperfici | float | Superficie / área relevante del tramo (m² o km² según origen) |
+| dLogistico | float | Valor logístico o índice asociado                             |
+| cOperacion | str   | Tipo de operación (RM, Concesión, etc.)                       |
+| dIMD       | float | Intensidad media diaria de tráfico                            |
+| cPeajes    | str   | Información de peajes (Concesión, 0, vacío)                   |
